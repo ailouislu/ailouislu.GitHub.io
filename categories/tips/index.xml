@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on Louis&#39; Blog</title>
+    <link>https://blog.nzlouis.com/categories/tips/</link>
+    <description>Recent content in Tips on Louis&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jan 2023 11:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.nzlouis.com/categories/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vim Tips</title>
+      <link>https://blog.nzlouis.com/2018/02/09/vim-tips/</link>
+      <pubDate>Thu, 05 Jan 2023 11:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/2018/02/09/vim-tips/</guid>
+      <description>&lt;h2 id=&#34;vim-graphical-cheat-sheet&#34;&gt;vim graphical cheat sheet&lt;/h2&gt;&#xA;&lt;p&gt;&#xD;&#xA;  &lt;img src=&#34;//img/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg&#34; alt=&#34;&#34;&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

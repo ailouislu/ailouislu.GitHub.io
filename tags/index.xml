@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Louis&#39; Blog</title>
+    <link>https://blog.nzlouis.com/tags/</link>
+    <description>Recent content in Tags on Louis&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jan 2023 11:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.nzlouis.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tips</title>
+      <link>https://blog.nzlouis.com/tags/tips/</link>
+      <pubDate>Thu, 05 Jan 2023 11:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/tips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vim</title>
+      <link>https://blog.nzlouis.com/tags/vim/</link>
+      <pubDate>Thu, 05 Jan 2023 11:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/vim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Istio</title>
+      <link>https://blog.nzlouis.com/tags/istio/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/istio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://blog.nzlouis.com/tags/kubernetes/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ubuntu</title>
+      <link>https://blog.nzlouis.com/tags/ubuntu/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.nzlouis.com/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
