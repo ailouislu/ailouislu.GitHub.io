@@ -14,6 +14,36 @@
                         </a>
                     </li>
 		           {{ end }}
+                    {{ with .Site.Params.social.twitter }}
+                    <li>
+                        <a href="{{ . }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {{ end }}
+                    {{ with .Site.Params.social.zhihu }}
+                    <li>
+                        <a target="_blank" href="{{ . }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+		            {{ end }}
+                    {{ with .Site.Params.social.weibo }}
+                    <li>
+                        <a target="_blank" href="{{ . }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           {{ end }}
                     {{ with .Site.Params.social.facebook }}
                     <li>
                         <a target="_blank" href="{{ . }}">
@@ -25,6 +55,17 @@
                     </li>
 		           {{ end }}
 
+		            <!-- Huabing: add wechat QR code link -->
+                    {{ with .Site.Params.social.wechat }}
+                    <li>
+                        <a target="_blank" href="{{ . | relURL }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            {{ end }}
                     {{ with .Site.Params.social.github }}
                     <li>
                         <a target="_blank" href="{{ . }}">
@@ -35,6 +76,16 @@
                         </a>
                     </li>
 		            {{ end }}
+                    {{ with .Site.Params.social.gitlab }}
+                    <li>
+                        <a target="_blank" href="{{ . }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {{ end }}
                     {{ with .Site.Params.social.git }}
                     <li>
                         <a target="_blank" href="{{ . }}">
@@ -61,6 +112,16 @@
                             <span class="fa-stack fa-lg">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-medium fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {{ end }}
+                    {{ with .Site.Params.social.stackoverflow }}
+                    <li>
+                        <a target="_blank" href="{{ . }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
@@ -146,10 +207,15 @@
                    </li>
             {{ end }}
              </ul>
-		        <p class="copyright text-muted">
+		<p class="copyright text-muted">
                     Copyright &copy; {{ .Site.Title }} {{ now.Year }} {{- if .Site.Params.icp }} | {{ with .Site.Params.icp }}{{ . | markdownify }}{{ end }}{{- end}}
                     <br>
-                     by <a href="https://nzlouis.com">NZ Louis</a>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
                 </p>
             </div>
         </div>

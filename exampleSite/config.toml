@@ -1,5 +1,5 @@
-baseurl = "https://blog.nzlouis.com"
-title = "Louis' Blog"
+baseurl = "https://zhaohuabing.com"
+title = "Huabing Blog"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -14,13 +14,13 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
   header_image = "img/home-bg-jeep.jpg"
-  SEOTitle = "Louis' Blog"
-  description = "NZ Louis，Software Engineer，Full-stack，Life Explorer | Here is Louis' blog, where we discover a bigger world together."
-  keyword = "NZ Louis, Louis Lu, Louis, Louis' Blog, blog, Web, PaaS, Istio, Kubernetes, Microservice"
-  slogan = "If you never try, you will never know."
+  SEOTitle = "赵化冰的博客 | Zhaohuabing Blog"
+  description = "赵化冰，程序员, 开源爱好者，生活探险家 | 这里是 赵化冰 的博客，与你一起发现更大的世界。"
+  keyword = "赵化冰, zhaohuabing, Zhaohuabing, , 赵化冰的网络日志, 赵化冰的博客, Zhaohuabing Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice"
+  slogan = "路在脚下，心向远方"
 
   image_404 = "img/404-bg.jpg"
-  title_404 = "You have arrived at a wasteland of knowledge :("
+  title_404 = "你来到了没有知识的荒原 :("
   omit_categories = false
 
   # leancloud storage for page view counter
@@ -35,8 +35,9 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
   # Sidebar settings
-  sidebar_about_description = "Software Engineer, Open Source Enthusiast and Life Adventurer"
-  sidebar_avatar = "img/LouisLu.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_about_description = "Software Developer, Open Source Enthusiast and Life Adventurer"
+  #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  sidebar_avatar = "img/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   featured_tags = true 
   featured_condition_size = 1 
@@ -44,9 +45,18 @@ home = ["HTML", "RSS", "Algolia"]
   # Baidu Analytics
   ba_track_id = ""
   
+  # We need a proxy to access Disqus api in China
+  # Follow https://github.com/zhaohuabing/disqus-php-api to set up your own disqus proxy
+  disqus_proxy = ""
+  disqus_site = ""
+
   # Twikoo comments
   # Follow https://twikoo.js.org/ to set up your own env_id
   twikoo_env_id = ""
+
+  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
+  reward = true 
+  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
 
   friends = true
   bookmarks = false
@@ -58,14 +68,14 @@ home = ["HTML", "RSS", "Algolia"]
 
   [params.social]
   rss            = true 
-  email          = "nzlouis.com@gmail.com"
+  email          = "youremail@gmail.com"
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
   #twitter       = "full profile url in twitter"
-  linkedin       = "https://www.linkedin.com/in/ailouis"
+  linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
   stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
   #instagram     = "full profile url in instagram"
-  github         = "https://github.com/ailouislu"
+  github         = "https://github.com/yourgithub"
   wechat         = "your wechat qr code image"
   #medium        = "full profile url in medium"
   #slack         = "full workspace url in slack"
@@ -74,11 +84,12 @@ home = ["HTML", "RSS", "Algolia"]
   #gitlab        = "full profile url in gitlab"
   #mastodon      = "full profile url in mastodon"
   #keybase       = "full profile url in keybase"
+  #xing          = "https://www.xing.com/profile/yourxingid"
   #git           = "full profile url for git user"
   
   [[params.friend_link]]
-  title = "Louis' blog"
-  href =  "https://blog.nzlouis.com"
+  title = "Linda的博客"
+  href =  "https://zhaozhihan.com"
 
   [[params.bookmark_link]]
   title =  "Martin Fowler"
@@ -96,6 +107,9 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.addtional_menus]]
   title =  "ARCHIVE"
   href =  "/archive/"
+  [[params.addtional_menus]]
+  title =  "NOTES"
+  href =  "/notes/"
   [[params.addtional_menus]]
   title =  "ABOUT"
   href =  "/about/"

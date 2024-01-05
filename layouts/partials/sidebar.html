@@ -32,12 +32,52 @@
                    </a>
                </li>
                {{ end }}
+               {{ with .Site.Params.social.twitter }}
+               <li>
+                   <a href="{{ . }}">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               {{ end }}
+               {{ with .Site.Params.social.zhihu }}
+               <li>
+                   <a target="_blank" href="{{ . }}">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-stack-1x fa-inverse">知</i>
+                       </span>
+                   </a>
+               </li>
+               {{ end }}
+               {{ with .Site.Params.social.weibo }}
+               <li>
+                   <a target="_blank" href="{{ . }}">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-weibo fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               {{ end }}
                {{ with .Site.Params.social.facebook }}
                <li>
                    <a target="_blank" href="{{ . }}">
                        <span class="fa-stack fa-lg">
                            <i class="fas fa-circle fa-stack-2x"></i>
                            <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               {{ end }}
+               {{ with .Site.Params.social.wechat }}
+               <li>
+                   <a target="_blank" href="{{ . | relURL}}">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
                        </span>
                    </a>
                </li>
