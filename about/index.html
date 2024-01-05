@@ -1,550 +1,681 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+<link rel="icon" type="image/x-icon" href="images/l.ico" />
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NZ Louis</title>
+	<!-- Meta Tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" />
 
-    
-    <meta property="og:site_name" content="Louis&#39; Blog">
-    <meta property="og:type" content="article">
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
 
-    
-    <meta property="og:image" content="https://blog.nzlouis.com/img/duck-pack.jpg">
-    <meta property="twitter:image" content="https://blog.nzlouis.com/img/duck-pack.jpg" />
-    
-
-    
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
-    
-
-    
-    <meta name="description" content="NZ Louis，Software Engineer，Full-stack，Life Explorer | Here is Louis&#39; blog, where we discover a bigger world together.">
-    <meta property="og:description" content="NZ Louis，Software Engineer，Full-stack，Life Explorer | Here is Louis&#39; blog, where we discover a bigger world together." />
-    <meta property="twitter:description" content="NZ Louis，Software Engineer，Full-stack，Life Explorer | Here is Louis&#39; blog, where we discover a bigger world together." />
-    
-
-    
-    <meta property="twitter:card" content="summary" />
-    
-    
-
-    <meta name="keyword"  content="NZ Louis, Louis Lu, Louis, Louis&#39; Blog, blog, Web, PaaS, Istio, Kubernetes, Microservice">
-    <link rel="shortcut icon" href="/img/favicon.ico">
-
-    <title>Louis&#39; Blog</title>
-
-    <link rel="canonical" href="/about/">
-
-    
-    
-    
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-
-    
-    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
-
-    
-    <link rel="stylesheet" href="/css/zanshang.css">
-
-    
-    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
-
-    
-    
-
-    
-    <script src="/js/jquery.min.js"></script>
-
-    
-    <script src="/js/bootstrap.min.js"></script>
-
-    
-    <script src="/js/hux-blog.min.js"></script>
-
-    
-    <script src="/js/lazysizes.min.js"></script>
-
-    
-    
-
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //Meta Tags -->
+	<!-- Style Sheets -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- //Style Sheets -->
+	<!--web-fonts-->
+	<link href="http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<!--//web-fonts-->
 </head>
+<body>
+	<!-- banner -->
+	<div class="banner" id="home">
+		<div class="container">
+			<!-- header -->
+			<header>
 
-
-
-
-
-
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-
-    <div class="container-fluid">
-        
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Louis&#39; Blog</a>
-        </div>
-
-        
-        
-        <div id="huxblog_navbar">
-            <div class="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="/">All Posts</a>
-                    </li>
-                    
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                    
-                    <li>
-                        <a href="/categories/tech">Tech</a>
-                    </li>
-                    <li>
-                        <a href="/categories/life">Life</a>
-                    </li>
-		    
-                        <li><a href="/archive//">ARCHIVE</a></li>
-                    
-                        <li><a href="/about//">ABOUT</a></li>
-                    
-		            <li>
-                        <a href="/search"><i class="fa fa-search"></i></a>
-		           </li>
-                </ul>
-            </div>
-        </div>
-        
-    </div>
-    
-</nav>
-<script>
-    
-    
-    
-    var $body   = document.body;
-    var $toggle = document.querySelector('.navbar-toggle');
-    var $navbar = document.querySelector('#huxblog_navbar');
-    var $collapse = document.querySelector('.navbar-collapse');
-
-    $toggle.addEventListener('click', handleMagic)
-    function handleMagic(e){
-        if ($navbar.className.indexOf('in') > 0) {
-        
-            $navbar.className = " ";
-            
-            setTimeout(function(){
-                
-                if($navbar.className.indexOf('in') < 0) {
-                    $collapse.style.height = "0px"
-                }
-            },400)
-        }else{
-        
-            $collapse.style.height = "auto"
-            $navbar.className += " in";
-        }
-    }
+				<div class="header-bottom-agileits">
+				
+					<div class="w3-logo">
+<!-- 						<a class="navbar-brand" href="#"><img src="images/nzlouis1.jpg" width="100" height="40" class="rounded float-left" alt="..."/></a> -->
+						<h2><a href="index.html">NZLouis<span class="sub-logo">NZ Louis</span></a></h2>
+					</div>
+					<!-- navigation -->
+					<nav class="navbar navbar-default shift">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+							    aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+	    <script type="text/javascript">
+var _PageHeight = document.documentElement.clientHeight,
+_PageWidth = document.documentElement.clientWidth;
+var _LoadingTop = _PageHeight > 61 ? (_PageHeight - 61) / 2 : 0,
+_LoadingLeft = _PageWidth > 215 ? (_PageWidth - 215) / 2 : 0;
+var _LoadingHtml = '<div id="loadingDiv" style="position:absolute;left:0;width:100%;height:' + _PageHeight + 'px;top:0;background:#f3f8ff;opacity:1;filter:alpha(opacity=80);z-index:10000;"><div style="position: absolute; cursor1: wait; left: ' + _LoadingLeft + 'px; top:' + _LoadingTop + 'px; width: auto; height: 77px; line-height: 77px; padding-left: 70px; padding-right: 5px; background: #fff  no-repeat scroll 5px 15px; border: 2px solid #95B8E7; color: #696969; font-family:\'Microsoft YaHei\';">The page is loading, please wait...</div></div>';
+document.write(_LoadingHtml);
+document.onreadystatechange = completeLoading;    
+function completeLoading() {
+if (document.readyState == "complete") {
+    var loadingMask = document.getElementById('loadingDiv');
+    loadingMask.parentNode.removeChild(loadingMask);
+}
+}
 </script>
+						</div>
 
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li><a class="active" href="index.html">Home</a></li>
+								<li><a class="scroll" href="#about">About</a></li>
+								<li><a class="scroll" href="#portfolio">Portfolio</a></li>
+								<li><a class="scroll" href="#skills">Skills</a></li>
+								<li><a class="scroll" href="#contact">Contact</a></li>
+								<li><a href="http://blog.nzlouis.com" target="blank">Blog</a></li>
+							</ul>
 
+						</div>
+						<!-- /.navbar-collapse -->
 
-<header class="intro-header" style="background-image: url('/img/duck-pack.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>Louis&#39; Blog </h1>
-                    
-		    <span class="subheading">If you never try, you will never know.</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+					</nav>
+				</div>
+				<div class="clearfix"></div>
+				<!-- //navigation -->
+			</header>
+			<!-- //header -->
+			<div class="banner-text-w3-agileits">
+				<h5>Hi, I'm</h5>
+				<h2><span>L</span>ouis <span>L</span>u<span></san></h2>
+				<h5><p>Full Stack developer</p></h5>
+<!-- 				<h5>Software engineer & Project manager</h5> -->
+				<div class="botton">
+					<a href="#about" class="scroll">About me <span class="fa fa-caret-right"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!--about-->
+	<div class="about-w3layouts" id="about">
+		<div class="container">
+			<div class="tittle-agileinfo">
+				<div class="title-wthree">
+<!-- 					<h5 class="title-w3">About Me</h5> -->
+					<div class="clearfix"></div>
+				</div>
+				<div class="about-top text-left">
+<!-- 					<h3 class="subheading-agileits-w3layouts">Some words about me</h3> -->
+					<h3 class="subheading-agileits-w3layouts">Some words about me</h3>
+					<p class="para-agileits-w3layouts">I am a highly competent full-stack software engineer at Westpac NZ with 10 years of experience developing a wide range of systems for clients in multiple industries. I have proven expertise in building software systems. I understand the complex project lifecycle in-depth and am very capable at all aspects of development from project planning to requirements gathering through to writing and testing code, creating documentation and support. I am looking to grow as part of a team and eventually take on responsibility for larger projects.
+					</p>
+				</div>
+				
+			</div>
+			<div class="col-md-4 about-left-agileits">
+				<div class="services-grids social">
+					<a class="fa fa-delicious" aria-hidden="true"></a>
+					<p class="para-agileits-w3layouts">Over 10 years of experience in development.</p>
+					<div class="clearfix"></div>
+					<h6>Development</h6>
+				</div>
+				<div class="services-grids">
+					<a class="fa fa-globe" aria-hidden="true"></a>
+					<p class="para-agileits-w3layouts">Good at communication and cooperation.</p>
+					<h6>Teamwork</h6>
+				</div>
+				<div class="services-grids">
+					<a class="fa fa-desktop" aria-hidden="true"></a>
+					<p class="para-agileits-w3layouts">Hardworking, problem-solving, diligent, keep learning.</p>
+					<h6>Professional</h6>
+				</div>
+				<div class="services-grids">
+					<a class="fa fa-mobile" aria-hidden="true"></a>
+					<p class="para-agileits-w3layouts">Understanding the project management process, analyzing the risks, primary tasks. Agile project management.</p>
+					<h6>Project management</h6>
+				</div>
+				<div class="clearfix"></div>
+			</div>
 
+			<div class="col-md-8 about-right">
+				<div class="about-border-w3ls">
+				</div>
+				<div class="person-info-agileits-w3layouts">
+					<p class="para-agileits-w3layouts"><span>Hi, I'm Louis, </span>a highly competent full-stack software engineer at Westpac NZ.</p>
+					<ul>
+						<li><span>Name:</span> Louis Augustine</li>
+						<li><span>Experience:</span>Over 6 years of experience in development</li>
+						<li><span>Email:</span> <a href="mailto:nzlouis.com@gmail.com">nzlouis.com@gmail.com</a></li>
+						<li><span>Mobile:</span>(+64) 21 0258 8639</li>
+						<li><span>Website:</span> <a href="#">nzlouis.com</a></li>
+						<li><span>LinkedIn:</span> <a target="_blank" href="https://www.linkedin.com/in/nzlouis">linkedin.com/in/nzlouis</a></li>
+<!-- 						<li><span>Address</span>: 27 Nether Street, Finchley, UK</li> -->
+<!-- 						<li><a href="#" class="botton-w3ls">Download CV</a> -->
+						</li>
+					</ul>
+					<div class="clearfix"></div>
 
-
-
-<article>
-    <div class="container">
-        <div class="row">
-            
-            <div class="
-            col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container">
-            
-                <h2 id="about-me">About Me</h2>
-<p><strong><em>Louis Lu (<a href="https://nzlouis.com/">NZ Louis</a>)</em></strong> is a highly skilled full-stack Software Engineer, demonstrating a proven track record in developing efficient systems across various industries. With proficiency in utilizing AI tools to enhance work efficiency, Louis excels in all stages of development, from project planning to coding, testing, documentation, and ongoing support. He is eager to contribute to collaborative team environments and ready to take on increased responsibilities for future projects.</p>
-<p>He also has strong interests in various technical topics such as Cloud Native, Artificial Intelligence, Cryptocurrencies, Smart Home, etc. He love sharing his ideas about these things in his blog.</p>
-<p>Louis holds a Master degree of Software Engineering from Northeastern University in China.</p>
-<p>Currently, Louis works as a software engineer at <a href="https://www.westpac.co.nz/">Westpac NZ</a> and also is working on the online banking projects.</p>
-<p>While he is free, he likes writing technical blog posts, playing basketball, swimming, hiking, travelling and learning new things.</p>
-<p>Feel free to connect Louis at Github and Linkedin, leave your thoughts in his blog or share your ideas by <a href="mailto:nzlouis.com@gmail.com">writing him an email</a>.</p>
-<h2 id="open-source-projects">Open Source Projects</h2>
-<table>
-<thead>
-<tr>
-<th>Project</th>
-<th>Role</th>
-<th>Website</th>
-<th>GitHub</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ailouislu.GitHub.io</td>
-<td>Creator</td>
-<td><a href="https://blog.nzlouis.com">https://blog.nzlouis.com</a></td>
-<td><a href="https://github.com/ailouislu/ailouislu.GitHub.io">https://github.com/ailouislu/ailouislu.GitHub.io</a></td>
-</tr>
-<tr>
-<td>books-react-bootstrap</td>
-<td>Creator</td>
-<td><a href="https://books.nzlouis.com">https://books.nzlouis.com</a></td>
-<td><a href="https://github.com/ailouislu/books-react-bootstrap">https://github.com/ailouislu/books-react-bootstrap</a></td>
-</tr>
-<tr>
-<td>products-react</td>
-<td>Creator</td>
-<td><a href="https://products.nzlouis.com">https://products.nzlouis.com</a></td>
-<td><a href="https://github.com/ailouislu/products-react">https://github.com/ailouislu/products-react</a></td>
-</tr>
-<tr>
-<td>openapi</td>
-<td>Creator</td>
-<td>-</td>
-<td><a href="https://github.com/ailouislu/openapi">https://github.com/ailouislu/openapi</a></td>
-</tr>
-<tr>
-<td>tasky</td>
-<td>Creator</td>
-<td>-</td>
-<td><a href="https://github.com/ailouislu/tasky">https://github.com/ailouislu/tasky</a></td>
-</tr>
-</tbody>
-</table>
-
-            
-             
-            
-
-
-
-            
-            </div>
-            
-            
-
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
+					<div class="pos-w3ls">
+						<h4><span class="red-w3ls">Get</span> in touch</h4>
+						<div class="button-w3layouts"><a href="#contact" class="scroll">Contact Me</a></div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//about-->
 	
-    <section class="visible-md visible-lg">
+	<!-- gallery -->
+	<div class="gallery" id="portfolio">
+		<div class="container">
+			<div class="title-wthree">
+				<h5 class="title-w3"><a href="http://peer.nzlouis.com" target="_blank" style="color:blue;">Portfolio</a></h5>
+<!-- 				<a href="http://peer.nzlouis.com" target="_blank" style="color:blue;">Project link:</a> -->
+				<div class="clearfix"></div>
+			</div>
+				<div class="col-md-4">
+					<div class="agile_gallery_grid">
+						<a title="Peer evaluation system" href="images/team.jpg">
+							<div class="agile_gallery_grid1">
+								<a href="https://cognitiv.co.nz" target="_blank" style="color:blue;"> 
+<!-- 								<iframe width="100%" height="100%" src="https://www.youtube.com/embed/OSjAo0T_o3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+									<img src="images/team.jpg" alt="Cognitiv website" onerror="src='images/1.jpg'" class="img-responsive" />
+								</a>
+								<a href="https://cognitiv.co.nz" target="_blank" style="color:blue;"><br>&nbsp;&nbsp;&nbsp;Cognitiv website<br>&nbsp;<br>&nbsp;</a>
+							</div>
+						</a>
+					</div>
+					<div class="agile_gallery_grid">
+						<a title="Peer evaluation system" href="images/peer evaluation.jpg">
+							<div class="agile_gallery_grid1">
+								<a href="http://peer.nzlouis.com" target="_blank" style="color:blue;"> 
+<!-- 								<iframe width="100%" height="100%" src="https://www.youtube.com/embed/OSjAo0T_o3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+									<img src="images/peer evaluation.jpg" alt="Peer evaluation system" onerror="src='images/1.jpg'" class="img-responsive" />
+								</a>
+								<a href="http://peer.nzlouis.com" target="_blank" style="color:blue;"><br>Peer evaluation system<br>&nbsp;<br>&nbsp;</a>
+							</div>
+						</a>
+					</div>
+					<div class="w3_agile_gallery_grid">
+						<a title="Louis' blog: blog.nzlouis.com" href="images/blog.jpg">
+							<div class="agile_gallery_grid1">
+								<img src="images/blog.jpg" alt=" " class="img-responsive" />
+							</div>
+							<br>Louis' blog: blog.nzlouis.com<br>&nbsp;<br>&nbsp;
+						</a>
+					</div>
+				</div>
+			<div class="w3ls_gallery_grids">
+				<div class="col-md-4">
+					<div class="agile_gallery_grid">
+						<a title="The internet financial analysis system" href="images/11.jpg">
+							<div class="agile_gallery_grid1">
+								<a href="http://ibank.nzlouis.com" target="_blank" style="color:blue;">
+									<img src="images/11.jpg" alt=" " class="img-responsive" />
+								</a>
+							</div>
+							<a href="http://ibank.nzlouis.com" target="_blank" style="color:blue;"><br>The internet financial analysis system<br>&nbsp;<br>&nbsp;</a>
+						</a>
+					</div>
+					<div class="agile_gallery_grid">
+						<a title="Tenei job hunting for Maori" href="images/tenei.jpg">
+							<div class="agile_gallery_grid1">
+								<a href="http://tenei.nz" target="_blank" style="color:blue;">
+									<img src="images/tenei.jpg" alt=" " class="img-responsive" />
+								</a>
+							</div>
+							<a href="http://tenei.nz" target="_blank" style="color:blue;"><br>Tenei job hunting for Maori<br>&nbsp;<br>&nbsp;</a>
+						</a>
+					</div>
+					<div class="w3_agile_gallery_grid">
+						<a title="China Tobacco Bureau approval system" href="images/check.jpg">
+							<div class="agile_gallery_grid1">
+								<img src="images/check.jpg" alt=" " class="img-responsive" />
+							</div>
+							<br>China Tobacco Bureau approval system<br>&nbsp;<br>&nbsp;
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="agile_gallery_grid">
+						<a title=".NET system: Online Event Registration" href="images/folio.jpg">
+							<div class="agile_gallery_grid1">
+								<a href="https://www.folio.insure" target="_blank" style="color:blue;">
+									<img src="images/folio.jpg" alt="Folio Insurance system" class="img-responsive" />
+								</a>
+							</div>
+							<a href="https://www.folio.insure" target="_blank" style="color:blue;"><br>Folio Insurance system<br>&nbsp;<br>&nbsp;</a>
+						</a>
+						<p></p>
+					<p></p>
+					</div>
+					<div class="agile_gallery_grid">
+						<a title=".NET system: Online Event Registration" href="images/online.jpg">
+							<div class="agile_gallery_grid1">
+								<a href="http://nzlouis.com:81" target="_blank" style="color:blue;">
+									<img src="images/online.jpg" alt=".NET system: Online Event Registration" class="img-responsive" />
+								</a>
+							</div>
+							<a href="http://nzlouis.com:81" target="_blank" style="color:blue;"><br>.NET system: Online Event Registration<br>&nbsp;<br>&nbsp;</a>
+						</a>
+						<p></p>
+					<p></p>
+					</div>
+					<div class="w3_agile_gallery_grid">
+						<a title="China Tobacco Bureau approval system" href="images/bus.jpg">
+							<div class="agile_gallery_grid1">
+								<img src="images/bus.jpg" alt=" " class="img-responsive" />
+							</div>
+							<br>Public Transport Management System<br>&nbsp;<br>&nbsp;
+						</a>
+						<p></p>
+						<p></p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //gallery -->
 	
-        <div class="short-about">
-            
-            <a href="/about">
-               <img src="/img/LouisLu.png" alt="avatar" style="cursor: pointer" />
-            </a>
-            
-            
-                <p>Software Engineer, Open Source Enthusiast and Life Adventurer</p>
-            
-           
-           <ul class="list-inline">
-               
-               <li>
-                   <a href="mailto:nzlouis.com@gmail.com">
-                      <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                      </span>
-                   </a>
-               </li>
-               
-               
-               
-               <li>
-                   <a target="_blank" href="https://github.com/ailouislu">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               <li>
-                   <a target="_blank" href="https://www.linkedin.com/in/ailouis">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-                    <li>
-                        <a target="_blank" href="https://stackoverflow.com/users/yourstackoverflowid">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-            
-            
-            
-               
-               
-               
-               
-                </ul>
-            </div>
-    </section>
 	
-    
-    
-    
-    
-    <section>
-        <hr class="hidden-sm hidden-xs">
-        <h5>FEATURED TAGS</h5>
-        <div class="tags">
-            
-            
-               
-            
-               
-            
-               
-            
-               
-            
-               
-            
-        </div>
-    </section>
-    
+	<!--experience-->
+	<div class="display-w3lsagile">
+		<div class="col-md-7 col-sm-7 exp-img-agileits">
+		</div>
+		<div class="col-md-5 col-sm-5 display-grid-w3lsagile display-grid-1-w3lsagile">
 
-    
-    
-    <section>
-        <hr class="hidden-sm hidden-xs">
-        <h5>FRIENDS</h5>
-        <ul class="list-inline">
-            
-            <li><a target="_blank" href="https://blog.nzlouis.com">Louis&#39; blog</a></li>
-            
-        </ul>
-    </section>
-    
-    
-</div>
+			<!-- Scrolling-Articles -->
+			<div class="activity_box agileits w3layouts">
+				<div class="title-wthree work_box">
+					<h5 class="title-w3">Work Experience</h5>
+					<div class="clearfix"></div>
+				</div>
+				<div class="scrollbar agileits w3layouts" id="style-1">
+					<div class="activity-row agileits w3layouts">
+						<div class="activity-img agileits w3layouts">
+							<h6>Nov 2020 - Mar 2021</h6>
+						</div>
+						<div class="activity-desc agileits w3layouts">
+							<h5>Cognitiv New Zealand LTD  Wellington New Zealand</h5>
+							<p class="para-agileits-w3layouts">Associate Developer</p><p>Developed Folio and Time Insurance that are the easy-to-use one-stop online service platform for insurance. Developed Tenei that is a job hunting website for Maori. Agile environment.
+							</p><p>Related skills: React, Vue, Node.js, AWS, Dynamodb, and Auth0
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="activity-row agileits w3layouts">
+						<div class="activity-img agileits w3layouts">
+							<h6>Aug 2020 - Nov 2021</h6>
+						</div>
+						<div class="activity-desc agileits w3layouts">
+							<h5>Canterbury & New Zealand Business Association  New Zealand</h5>
+							<p class="para-agileits-w3layouts">Software Developer (Volunteer)</p><p>Developing an accounting software project in an Agile environment.
+								<br>Related skills: Angular, C#, .NET Core, SQL Server, Git, and Azure
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="activity-row agileits w3layouts">
+						<div class="activity-img agileits w3layouts">
+							<h6>2015-2016</h6>
+						</div>
+						<div class="activity-desc agileits w3layouts">
+							<h5>DAGONG Credit Software Co., Ltd. Beijing China</h5>
+							<p class="para-agileits-w3layouts">Project manager</p><p>Managed the build and testing of an internet financial analysis system by using agile methodologies based on , which adopted mature algorithms of rating agencies to successfully solve risk assessment problems of more than 200 online financial products by using the data of multiple assessments in ten dimensions.
+								<br>Related skills: Java, JavaScript, Spring, Bootstrap, Tomcat, MySQL, and Redis
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="activity-row agileits w3layouts">
+						<div class="activity-img agileits w3layouts">
+							<h6>2012-2015</h6>
+						</div>
+						<div class="activity-desc agileits w3layouts">
+							<h5>Chinasoft International Limited</h5>
+							<p class="para-agileits-w3layouts">Software Designer</p><p>Built KPI and OA projects code architecture which greatly improved project development efficiency and code qualities through automatic code generation functions and the use of Web Portal Tools. Adopted Axure PR for designing to shorten the design phase and enhanced customer experience and satisfaction.
+								<br>Related skills: Java, JavaScript, Spring MVC, WebSphere, SVN, and DB2
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				<div class="activity-row agileits w3layouts">
+						<div class="activity-img agileits w3layouts">
+							<h6>2010-2012</h6>
+						</div>
+						<div class="activity-desc agileits w3layouts">
+							<h5>Founder International Co., Ltd. Beijing China</h5>
+							<p class="para-agileits-w3layouts">Senior software engineer</p><p>Designed and developed core functions for telecom value-added service projects which used SMS and MMS to realize mobile news systems and provide regular  news service for tens of thousands of users.
+								<br>Related skills: Java, JavaScript, Struts 2, Spring, iBATIS, Linux, SVN, and MySQL</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="activity-row agileits w3layouts">
+						<div class="activity-img agileits w3layouts">
+							<h6>2009-2010</h6>
+						</div>
+						<div class="activity-desc agileits w3layouts">
+							<h5>Beijing YinHengTong electronic technology Co., Ltd. Beijing China</h5>
+							<p class="para-agileits-w3layouts">Junior software engineer</p><p>Developed a debit card project and a large core banking reconciliation system.
+								<br>Related skills: Java, JavaScript, Struts, UNIX, Oracle, SVN, and Hibernate
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<!-- //Scrolling-Articles -->
 
-        </div>
-    </div>
-</article>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<!--//experience-->
+	<!--education-->
+	<div class="display-w3lsagile">
+		<div class="col-md-7 col-sm-7 edu-img-agileits">
+		</div>
+		<div class="col-md-5 col-sm-5 display-grid-w3lsagile display-grid-1-w3lsagile">
 
+			<!-- Scrolling-Articles -->
+			<div class="activity_box agileits w3layouts">
+				<div class="title-wthree">
+					<h5 class="title-w3">Education</h5>
+					<div class="clearfix"></div>
+				</div>
+				
+				<div class="scrollbar agileits w3layouts" id="style-2">
+				<div class="activity-row agileits w3layouts">
+						<div class="activity-img agileits w3layouts">
+							<h6>2019-June 2020</h6>
+						</div>
+						<div class="activity-desc agileits w3layouts">
+							<h5>Graduate Diploma in Information Technology</h5>
+							<p class="para-agileits-w3layouts">Capstone Project: Led a team to complete the development of the peer evaluation project based on Spring, Bootstrap, which was highly recognized by the client in three months during the COVID-19 lockdown. 
+								Link to project: <a href="http://peer.nzlouis.com" target="_blank" style="color:blue;">peer.nzlouis.com</a><br>
+								.NET Application Development, link to project: <a href="http://nzlouis.com:81" target="_blank" style="color:blue;">nzlouis.com:81</a><br>
+								Development and Testing Software()</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="activity-row agileits w3layouts">
+						<div class="activity-img agileits w3layouts">
+							<h6>2004-2007</h6>
+						</div>
+						<div class="activity-desc agileits w3layouts">
+							<h5>Masters of Software Engineering</h5>
+							<p class="para-agileits-w3layouts">Northeastern University Shenyang China</p><p>Designing and developing the Iron water dispatch system of the Baosteel group.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					
+<!-- 				<div class="activity-row agileits w3layouts"> -->
+<!-- 						<div class="activity-img agileits w3layouts"> -->
+<!-- 							<h6>2010-2012</h6> -->
+<!-- 						</div> -->
+<!-- 						<div class="activity-desc agileits w3layouts"> -->
+<!-- 							<h5>Founder International Co., Ltd. Beijing China</h5> -->
+<!-- 							<p class="para-agileits-w3layouts">Senior software engineer</p><p>Collecting customer requirements, designing, developing and testing Banking and public security  industry systems</p> -->
+<!-- 						</div> -->
+<!-- 						<div class="clearfix"></div> -->
+<!-- 					</div> -->
+<!-- 					<div class="activity-row agileits w3layouts"> -->
+<!-- 						<div class="activity-img agileits w3layouts"> -->
+<!-- 							<h6>2009-2010</h6> -->
+<!-- 						</div> -->
+<!-- 						<div class="activity-desc agileits w3layouts"> -->
+<!-- 							<h5>Beijing YinHengTong electronic technology co. LTD Beijing China</h5> -->
+<!-- 							<p class="para-agileits-w3layouts">Junior software engineer</p><p>Developing Banking industry systems</p> -->
+<!-- 						</div> -->
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<!-- //Scrolling-Articles -->
 
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<!--//education-->
+	
+	<!-- awards and skills -->
+	<div class="awards-bg-agile" id="skills">
+		<div class="container">
+			<div class="col-md-6 awards-agileits-w3layouts">
+				<div class="title-wthree">
+					<h5 class="title-w3">Tools</h5>
+					<div class="clearfix"></div>
+				</div>
+				<div class="w3_agileits_services_grids">
+					<div class="col-md-3 w3_agileits_services_grid">
+						<div class="w3_agileits_services_grid_agile">
+							<div class="w3_agileits_services_grid_1 i1">
+								<a class="fa fa-bookmark-o" aria-hidden="true"></a>
+							</div>
+							<h3>Development</h3>
+							<p class="para-agileits-w3layouts">Java, JavaScript, React, Node.js, Spring Boot, AWS, Restful api, GitHub, Vue, Bootstrap, HTML, CSS, JavaScript.</p>
+						</div>
+					</div>
+					<div class="col-md-3 w3_agileits_services_grid">
+						<div class="w3_agileits_services_grid_agile">
+							<div class="w3_agileits_services_grid_1 i2">
+								<a class="fa fa-television" aria-hidden="true"></a>
+							</div>
+							<h3>Database</h3>
+							<p class="para-agileits-w3layouts">MySQL, Dynamodb, NoSQL, Redis, DB2, Oracle, SQL Server.</p>
+						</div>
+					</div>
+					<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
+						<div class="w3_agileits_services_grid_agile">
+							<div class="w3_agileits_services_grid_1 i3">
+								<a class="fa fa-magic" aria-hidden="true"></a>
+							</div>
+							<h3>Development containers</h3>
+							<p class="para-agileits-w3layouts">WebSphere, WebLogic, Tomcat.</p>
+						</div>
+					</div>
+					<div class="col-md-3 w3_agileits_services_grid">
+						<div class="w3_agileits_services_grid_agile">
+							<div class="w3_agileits_services_grid_1 i4">
+								<a class="fa fa-trophy" aria-hidden="true"></a>
+							</div>
+							<h3>Other tools</h3>
+							<p class="para-agileits-w3layouts">Axure PR, R language, Trello</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="col-md-6 skills-w3layouts">
+				<div class="title-wthree">
+					<h5 class="title-w3">Skills</h5>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skill-main-agileits">
+					<p class="p1">95%</p>
+					<h4>Java</h4>
+				</div>
+				<div class="skill-main-agileits">
+					<p class="p2">86%</p>
+					<h4>JavaScript</h4>
+				</div>
+				<div class="skill-main-agileits">
+					<p class="p3">82%</p>
+					<h4>Node.js</h4>
+				</div>
+				<div class="skill-main-agileits">
+					<p class="p4">85%</p>
+					<h4>React</h4>
+				</div>
+				<div class="skill-main-agileits">
+					<p class="p5">75%</p>
+					<h4>.NET</h4>
+				</div>
+				<div class="skill-main-agileits">
+					<p class="p6">80%</p>
+					<h4>AWS</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //awards and skills -->
+	<!-- language -->
+	<div class="language-skills">
+		<div class="container">
+			<div class="col-md-6 lang-left-w3-agile">
+				<div class="title-wthree">
+					<h5 class="title-w3">IT Skills</h5>
+					<div class="clearfix"></div>
+				</div>
+<!-- 				<p class="para-agileits-w3layouts">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec congue risus. In non nulla lacus. Maecenas -->
+<!-- 					eros sapien, eleifend quis augue eu, pellentesque tincidunt tellus</p> -->
+			</div>
+			<div class="col-md-6 w3l_about_bottom_grid_right bar-grids">
+				<h6>Software Development<span> </span></h6>
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped active" style="width: 100%">
+					</div>
+				</div>
+				<div class="mid-bar">
+					<h6>Testing & Designing<span> </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 95%">
+						</div>
+					</div>
+				</div>
+<!-- 				<h6>Hindi<span>67% </span></h6> -->
+<!-- 				<div class="progress"> -->
+<!-- 					<div class="progress-bar progress-bar-striped active" style="width: 67%"> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //language -->
+	
 
+	<!-- footer -->
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">                  
-                    
-                    <li>
-                        <a href="mailto:nzlouis.com@gmail.com">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-		           
-                    
+	<!-- contact -->
+	<div class="contact-agileits-w3layouts" id="contact">
+		<div class="contact-right-wthree">
+			<div class="container">
+				<div class="title-wthree">
+					<h5 class="title-w3">Contact Me</h5>
+					<div class="clearfix"></div>
+				</div>
+				<div class="address-w3layouts">
+					<p class="para-agileits-w3layouts">I am a highly competent full-stack software engineer at Westpac NZ.</span></p>
+					<h4><a href="mailto:nzlouis.com@gmail.com">nzlouis.com@gmail.com</a></h4>
+					<h6>(+64) 21 0258 8639</h6>
+<!-- 					<p class="para-agileits-w3layouts">27 Nether Street, Finchley, London N12 7NN, United Kingdom</p> -->
+				</div>
+				<div class="botttom-nav-agileits">
+					<div class="w3l-social">
+						<ul>
+<!-- 							<li><a href="#" class="fa fa-facebook"></a></li> -->
+<!-- 							<li><a href="#" class="fa fa-twitter"></a></li> -->
+<!-- 							<li><a href="#" class="fa fa-google-plus"></a></li> -->
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
 
-                    
-                    <li>
-                        <a target="_blank" href="https://github.com/ailouislu">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-		            
-                    
-                    
-                    <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/ailouis">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-		           
-                    
-                    
-                    
-                    
-                    
-            
-            
-            
-           
-                   <li>
-                       <a href='' rel="alternate" type="application/rss+xml" title="Louis&#39; Blog" >
-                           <span class="fa-stack fa-lg">
-                               <i class="fas fa-circle fa-stack-2x"></i>
-                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-                           </span>
-                       </a>
-                   </li>
-            
-             </ul>
-		        <p class="copyright text-muted">
-                    Copyright &copy; Louis&#39; Blog 2024
-                    <br>
-                     by <a href="https://nzlouis.com">NZ Louis</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>
+			</div>
+		</div>
+<!-- 		<div class="wthree-form"> -->
+<!-- 			<div class="container"> -->
+<!-- 				<div class="col-md-6 contact-form agile_inner_grids"> -->
+<!-- 					<h5 class="title-w3">Say Hello</h5> -->
+<!-- 					<form action="#" method="post"> -->
+<!-- 						<div class="fields-grid"> -->
+<!-- 							<div class="styled-input"> -->
+<!-- 								<input type="text" name="Full Name" placeholder="Name" required=""> -->
+<!-- 							</div> -->
+<!-- 							<div class="styled-input"> -->
+<!-- 								<input type="email" name="Email" placeholder="Email" required=""> -->
+<!-- 							</div> -->
+<!-- 							<div class="styled-input"> -->
+<!-- 								<input type="text" name="Subject" placeholder="Subject" required=""> -->
+<!-- 							</div> -->
+<!-- 							<div class="clearfix"> </div> -->
+<!-- 						</div> -->
+<!-- 						<div class="styled-input textarea-grid"> -->
+<!-- 							<textarea name="Message" placeholder="Message" required></textarea> -->
+<!-- 						</div> -->
+<!-- 						<input type="submit" value="Send"> -->
+<!-- 					</form> -->
+<!-- 				</div> -->
+				<!---<div class="col-md-6 map-w3-agileits">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.523147399147!2d-0.18136368416846532!3d51.61362537965271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487619e5c86f6147%3A0x7f009116a7f24760!2sNether+Street+Apartment!5e0!3m2!1sen!2sin!4v1501221607097"></iframe>
+				</div>--->
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	<!-- Footer -->
+	<div class="copyright-wthree">
+		<div class="container">
+		</div>
+	</div>
+	<!-- //Footer -->
 
+	<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- //smooth scrolling -->
+	<script type='text/javascript' src='js/jquery-2.2.3.min.js'></script>
+	<!-- start-smoth-scrolling -->
+	<!--gallery -->
+	<script src="js/jquery.chocolat.js"></script>
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+	<!--light-box-files -->
+	<script type="text/javascript">
+		$(function () {
+			$('.w3_agile_gallery_grid a').Chocolat();
+		});
+	</script>
+	<!-- //gallery -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- start-smoth-scrolling -->
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
 
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
 
-
-<script>
-    function loadAsync(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
-</script>
-
-
-
-
-
-
-<script>
-    
-    if($('#tag_cloud').length !== 0){
-        loadAsync("/js/jquery.tagcloud.js",function(){
-            $.fn.tagcloud.defaults = {
-                
-                color: {start: '#bbbbee', end: '#0085a1'},
-            };
-            $('#tag_cloud a').tagcloud();
-        })
-    }
-</script>
-
-
-<script>
-    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
-        var $nav = document.querySelector("nav");
-        if($nav) FastClick.attach($nav);
-    })
-</script>
-
-
-
-
-
-
-<script type="text/javascript">
-    function generateCatalog(selector) {
-
-        
-        
-        
-        
-            _containerSelector = 'div.post-container'
-        
-
-        
-        var P = $(_containerSelector), a, n, t, l, i, c;
-        a = P.find('h1,h2,h3,h4,h5,h6');
-
-        
-        $(selector).html('')
-
-        
-        a.each(function () {
-            n = $(this).prop('tagName').toLowerCase();
-            i = "#" + $(this).prop('id');
-            t = $(this).text();
-            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
-            l = $('<li class="' + n + '_nav"></li>').append(c);
-            $(selector).append(l);
-        });
-        return true;
-    }
-
-    generateCatalog(".catalog-body");
-
-    
-    $(".catalog-toggle").click((function (e) {
-        e.preventDefault();
-        $('.side-catalog').toggleClass("fold")
-    }))
-
-    
-
-
-    loadAsync("\/js\/jquery.nav.js", function () {
-        $('.catalog-body').onePageNav({
-            currentClass: "active",
-            changeHash: !1,
-            easing: "swing",
-            filter: "",
-            scrollSpeed: 700,
-            scrollOffset: 0,
-            scrollThreshold: .2,
-            begin: null,
-            end: null,
-            scrollChange: null,
-            padding: 80
-        });
-    });
-</script>
-
-
-
-
-
-
+		});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!--js for bootstrap working-->
+	<script src="js/bootstrap.js"></script>
+	<!-- //for bootstrap working -->
 </body>
+
 </html>
