@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3373244c.chunk.css",
+    "main.js": "/static/js/main.943a1b66.chunk.js",
+    "main.js.map": "/static/js/main.943a1b66.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0fd18ac8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0fd18ac8.js.map",
+    "static/css/2.ff501121.chunk.css": "/static/css/2.ff501121.chunk.css",
+    "static/js/2.424d5501.chunk.js": "/static/js/2.424d5501.chunk.js",
+    "static/js/2.424d5501.chunk.js.map": "/static/js/2.424d5501.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ff501121.chunk.css.map": "/static/css/2.ff501121.chunk.css.map",
+    "static/css/main.3373244c.chunk.css.map": "/static/css/main.3373244c.chunk.css.map",
+    "static/js/2.424d5501.chunk.js.LICENSE.txt": "/static/js/2.424d5501.chunk.js.LICENSE.txt",
+    "static/media/9780008499723.jpg": "/static/media/9780008499723.577484ae.jpg",
+    "static/media/9780473470807.jpg": "/static/media/9780473470807.6822da52.jpg",
+    "static/media/9781509840182.jpg": "/static/media/9781509840182.d8ffda07.jpg",
+    "static/media/9781760785024.jpg": "/static/media/9781760785024.f8b25e0e.jpg",
+    "static/media/9781988547732.jpg": "/static/media/9781988547732.8c3fc285.jpg",
+    "static/media/default.jpg": "/static/media/default.c31079c6.jpg",
+    "static/media/font-awesome.css": "/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0fd18ac8.js",
+    "static/css/2.ff501121.chunk.css",
+    "static/js/2.424d5501.chunk.js",
+    "static/css/main.3373244c.chunk.css",
+    "static/js/main.943a1b66.chunk.js"
+  ]
+}
